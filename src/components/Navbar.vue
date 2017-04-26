@@ -1,11 +1,11 @@
 <template>
     <div class='navbar'>
         <ul>
-            <li>WHO WE ARE</li>
-            <li>GALLERY</li>
-            <li>RESOURCES</li>
-            <li>NEWS & EVENTS</li>
-            <li>HELP NOW</li>
+            <li><router-link to="/about">WHO WE ARE</router-link></li>
+            <li><router-link to="/gallery">GALLERY</router-link></li>
+            <li><router-link to="/resources">RESOURCES</router-link></li>
+            <li><router-link to="/newsandevents">NEWS & EVENTS</router-link></li>
+            <li><router-link to="/donate">HELP NOW</router-link></li>
         </ul>
     </div>
 </template>
@@ -44,10 +44,24 @@ li{
     font-weight: bold;
     font-size: 18px;
     color: #5a5a5a;
+    text-decoration: none;
 }
 
 li:hover{
     color: blue;
+    cursor: pointer;
+}
+
+router-link{
+    text-decoration: none;
+}
+
+a{
+    text-decoration:none;
+}
+
+a:hover{
+    color:blue;
     cursor: pointer;
 }
 

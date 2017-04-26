@@ -7,10 +7,6 @@ import Navbar from './components/Navbar';
 
 Vue.config.productionTip = false;
 
-// Vue.component('navbar', {
-//   template: '<h1>This is the navbar</h1>',
-// });
-
 Vue.component('navbar', Navbar);
 
 /* eslint-disable no-new */
