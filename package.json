@@ -11,6 +11,7 @@
     "lint": "eslint --ext .js,.vue src"
   },
   "dependencies": {
+    "smartphoto": "^0.5.5",
     "vue": "^2.2.6",
     "vue-photoswipe": "^1.0.2",
     "vue-router": "^2.3.1"
